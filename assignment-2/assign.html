@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="assign.css">
+</head>
+<body>
+
+    <h1 class="page-title">Async Weather Tracker</h1>
+
+    <div class="dashboard-wrapper">
+        
+        <div class="container search-history-container">
+            <h2>Weather Check</h2>
+            <form id="weather_form">
+                <input type="text" id="cityInput" placeholder="Enter city name..." required>
+                <button type="submit" id="searchBtn">Search</button>
+            </form>
+            
+            <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
+            
+            <h3>Search History</h3>
+            <div id="historyList" class="history-list">
+                </div>
+        </div>
+
+        <div class="container weather-container">
+            <h3>Current Weather</h3>
+            <div class="info" id="weatherResult">
+                <p>Enter a city to see the weather report.</p>
+            </div>
+        </div>
+
+        <div class="container console-container">
+            <h3>Event Console</h3>
+            <div id="eventConsole" class="console-box">
+                <p class="log-system">> System ready...</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="assignment2 (1).js"></script>
+</body>
+</html>
